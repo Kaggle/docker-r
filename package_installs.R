@@ -65,3 +65,7 @@ install.packages(c('collections', 'languageserver'), dependencies=TRUE)
 # The tfhub package is added to the rcran image.
 library(tfhub)
 install_tfhub()
+
+
+# This cluster validity index package is on CRAN.
+install.packages("UniversalCVI")
