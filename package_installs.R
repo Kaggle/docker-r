@@ -65,3 +65,6 @@ install.packages(c('collections', 'languageserver'), dependencies=TRUE)
 # The tfhub package is added to the rcran image.
 library(tfhub)
 install_tfhub()
+
+# Include the 'polars' package
+install.packages("polars")
